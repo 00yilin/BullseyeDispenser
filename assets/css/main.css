@@ -1,10 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Ubuntu+Condensed");
 
-/*
-	Minimaxing by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -99,12 +94,8 @@ input, select, textarea {
 		font-weight: normal;
 	}
 
-	h1 {
-		text-transform: lowercase;
-	}
 
 	h2 {
-		text-transform: lowercase;
 		font-size: 1.6em;
 		letter-spacing: -1px;
 		margin-bottom: 1em;
@@ -1492,7 +1483,6 @@ input, select, textarea {
 		padding: 15px 25px 15px 25px;
 		background-color: #007b9d;
 		border-radius: 10px;
-		text-transform: lowercase;
 		text-decoration: none;
 		color: #fff;
 		font-size: 1.2em;
@@ -1559,7 +1549,6 @@ input, select, textarea {
 			right: 40px;
 			top: 1px;
 			line-height: 84px;
-			text-transform: lowercase;
 			font-size: 1.3em;
 			letter-spacing: -1px;
 		}
@@ -1591,41 +1580,53 @@ input, select, textarea {
 				}
 
 /* Banner */
+.div_banner {
+    width: 100%;
+    height: auto;
+    padding: 0;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
 
-	#banner-wrapper {
-		background: #c8d2bc url(images/bg1.png);
-		padding: 2em 0;
-	}
+.btn_shift {
+    width: 40px;
+    height: 80px;
+    margin: 0;
+    padding: 0;
+    border: none;
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 35px;
+    visibility: hidden;
+    background-color: #ffffff;
+    opacity: 0.7;
+    -webkit-transition-duration: 0.5s;
+ /* Safari */
+    transition-duration: 0.5s;
+    cursor: pointer;
+    z-index: 8999;
+}
 
-	#banner {
-		position: relative;
-		width: 100%;
-		padding: 6em 0;
-		border-radius: 10px;
-		background-image: url(images/banner.jpg);
-		background-size: cover;
-		text-align: center;
-		box-shadow: inset 0 0 0 20px #fff;
-	}
+.btn_shift:hover {
+    background-color: #78a3c1;
+    opacity: 0.5;
+}
 
-		#banner h2 {
-			font-size: 3.3em;
-			color: #fff;
-			text-align: center;
-			letter-spacing: -2px;
-			margin: 0;
-		}
+.img_banner {
+    width: 100%;
+    height: 100%;
+    max-height: 700px;
+    flex: 1;
+    margin-left: -40px;
+    margin-right: -40px;
+    cursor: pointer;
+}
 
-		#banner span {
-			display: block;
-			left: 0;
-			margin: 0.5em 0 0 0;
-			font-size: 1.6em;
-			color: #fff;
-			letter-spacing: -1px;
-			text-transform: lowercase;
-			opacity: 0.8;
-		}
 
 /* Main */
 

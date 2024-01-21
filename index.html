@@ -17,7 +17,13 @@
 							<div class="col-12">
 
 								<header id="header">
-									<h1><a href="index.html" id="logo">Bullseye</a></h1>
+									<h1><a href="index.html" id="logo">
+										<img src="src/img/BullseyeLogo.jpg" alt="BullseyeDispenser logo"
+										width="90" height="95"
+										style="float:left;"> 
+										BULLS EYE
+										</a>
+									</h1>
 									<nav id="nav">
 										<a href="index.html" class="current-page-item">Homepage</a>
 										<a href="pages/aboutus.html">About Us</a>
@@ -33,16 +39,11 @@
 				</div>
 
 			<!-- Banner -->
-				<div id="banner-wrapper">
-					<div class="container">
-
-						<div id="banner">
-							<h2>Put something cool here!</h2>
-							<span>And put something almost as cool here, but a bit longer ...</span>
-						</div>
-
-					</div>
-				</div>
+			<div class="div_banner" onmouseover="bannerOver()" onmouseout="bannerOut()"> 
+				<button class="btn_shift" name="btn_shift" onclick="clickPrev()">&lt;</button> 
+				<img class="img_banner" id="banner" src="./src/img/暂时banner1.jpg" width="1000" height="700" /> 
+				<button class="btn_shift" name="btn_shift" onclick="clickNext()">&gt;</button> 
+			</div>
 
 			<!-- Main -->
 				<div id="main">
@@ -257,6 +258,8 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script src="assets/js/banner.js"></script>
+
 
 	</body>
 </html>
