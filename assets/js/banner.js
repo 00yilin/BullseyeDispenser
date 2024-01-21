@@ -36,12 +36,12 @@ var bannerJson = [{
  * banner单次执行内容
  */
 function interval() {
-    if(bannerIndex > 1000) bannerIndex -= 1000;
-    if(bannerIndex < 0) bannerIndex += 1000;
+    if (bannerIndex > 1000) bannerIndex -= 1000;
+    if (bannerIndex < 0) bannerIndex += 1000;
     var banner = document.getElementById("banner");
     banner.src = bannerJson[bannerIndex % bannerJson.length].imgUrl;
     banner.setAttribute("desUrl", bannerJson[bannerIndex % bannerJson.length].desUrl)
-    banner.onclick = function(){
+    banner.onclick = function () {
         window.open(this.getAttribute("desUrl"));
     }
 
@@ -81,7 +81,7 @@ function bannerOut() {
  */
 function clickPrev() {
     clearInterval(bannerInterval);
-    bannerIndex-=2;
+    bannerIndex -= 2;
     startBanner();
 }
 
