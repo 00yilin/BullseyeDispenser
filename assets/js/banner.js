@@ -1,9 +1,7 @@
-/********** 常量 **********/
-
 /**
  * banner切换时间间隔
  */
-var timeout = 6000;
+var timeout = 5000;
 
 /**
  * banner下标
