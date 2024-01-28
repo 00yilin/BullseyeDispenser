@@ -1502,26 +1502,6 @@ input, select, textarea {
 
 /* Header */
 
-	/* product二级菜单 */
-	/* ul li {
-		list-style: none;
-		background-image: -moz-linear-gradient(top, #6fbacb, #2e8faa);
-		background-image: -webkit-linear-gradient(top, #6fbacb, #2e8faa);
-		background-image: -ms-linear-gradient(top, #6fbacb, #2e8faa);
-		background-image: linear-gradient(top, #6fbacb, #2e8faa);
-	}
-	#header nav ul li {
-		float: left;
-		position: relative;
-	}
-	#header nav ul li ul{
-		display: none;
-		position: absolute;
-	}
-	#header nav ul li:hover ul{
-		display: block;
-	} */
-
 	#header-wrapper {
 		/* background-image: -moz-linear-gradient(top, #008dab, #007294);
 		background-image: -webkit-linear-gradient(top, #008dab, #007294);
@@ -1720,6 +1700,7 @@ input, select, textarea {
 					#header nav a {
 						padding: 0 20px 0 20px;
 					}
+					
 
 		/* Banner */
 

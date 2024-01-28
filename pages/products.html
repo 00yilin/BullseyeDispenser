@@ -7,6 +7,7 @@
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 	<link rel="stylesheet" href="../assets/css/pages.css" />
+	<link rel="stylesheet" href="../assets/css/menu.css" />
 </head>
 
 <body>
@@ -25,19 +26,29 @@
 									BULLS EYE
 								</a>
 							</h1>
-							<nav id="nav">
-								<a href="../index.html">Homepage</a>
-								<a href="./aboutus.html">About Us</a>
-								<a href="./projects.html">Projects</a>
-								<a href="./products.html" class="current-page-item">Products</a>
-								<a href="./contactus.html">Contact Us</a>
-							</nav>
-						</header>
 
+						</header>
+						<div class="menu">
+							<ul>
+								<li><a href="../index.html">Home</a></li>
+								<li><a href="./aboutus.html">About Us</a></li>
+								<li><a href="./projects.html">Projects</a></li>
+								<li>
+									<a href="./products.html" class="current-page-item">Products</a>
+									<ul>
+										<li><a href="./product1.html">Product 1</a></li>
+										<li><a href="./product2.html">MES System</a></li>
+										<li><a href="./product3.html">Product 3</a></li>
+									</ul>
+								</li>
+								<li><a href="./contactus.html">Contact Us</a></li>
+							</ul>
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
+
 
 		<!-- Banner -->
 		<div id="banner-wrapper3">
@@ -175,6 +186,7 @@
 	<script src="assets/js/breakpoints.min.js"></script>
 	<script src="assets/js/util.js"></script>
 	<script src="assets/js/main.js"></script>
+	<script src="assets/js/banner.js"></script>
 
 </body>
 

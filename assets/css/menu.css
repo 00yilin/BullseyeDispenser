@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+    font-size: 24px;
+}
+
+.menu {
+ 
+    background-color: #2e8faa;
+}
+
+.menu>ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu>ul>li {
+    width: 10%;
+    text-align: center;
+    position: relative;
+}
+
+.menu ul li {
+    height: 43px;
+    box-sizing: border-box;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: aliceblue;
+    /* 所有的a继承父级的宽度 */
+    display: block;
+    padding: 8px 0;
+}
+
+.menu ul li a:hover {
+    background-image: -moz-linear-gradient(top, #0782a0, #077d9b);
+    background-image: -webkit-linear-gradient(top, #0782a0, #077d9b);
+    background-image: -ms-linear-gradient(top, #0782a0, #077d9b);
+    background-image: linear-gradient(top, #0782a0, #077d9b);
+    background-color: #0882a1;
+    box-shadow: inset 0px 1px 5px 1px rgba(0, 0, 0, 0.05), 0px 0px 5px 1px rgba(255, 255, 255, 0.05);
+    border-radius: 5px;
+
+}
+
+.menu>ul>li>ul {
+    /* 动画效果，当高度改变时，使其2s渐变 */
+    transition: height 2s ease;
+    width: 100%;
+    height: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 42px;
+}
+
+.menu>ul>li {
+    position: relative;
+}
+
+.menu ul li ul {
+    height: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 42px;
+    width: 210px;
+    height: 140px;
+    margin-left: -50px;
+    background-image: -moz-linear-gradient(top, #6fbacb, #2e8faa);
+    background-image: -webkit-linear-gradient(top, #6fbacb, #2e8faa);
+    background-image: -ms-linear-gradient(top, #6fbacb, #2e8faa);
+    background-image: linear-gradient(top, #6fbacb, #2e8faa);
+    background-color: #0882a1;
+    box-shadow: inset 0px 1px 5px 1px rgba(0, 0, 0, 0.05), 0px 0px 5px 1px rgba(255, 255, 255, 0.05);
+    border-radius: 10px;
+    display: none;
+    /* 设置初始为不显示 */
+}
+
+.menu ul li:hover ul {
+    display: block;
+    /* 当一级菜单的li获取hover后将二级菜单的ul显示出来 */
+}
+
+.menu a.current-page-item {
+    background-image: -moz-linear-gradient(top, #008eb2, #007d9c);
+    background-image: -webkit-linear-gradient(top, #008eb2, #007d9c);
+    background-image: -ms-linear-gradient(top, #008eb2, #007d9c);
+    background-image: linear-gradient(top, #008eb2, #007d9c);
+    /* background-color: #007897; */
+    background-color: #007d9c;
+    border-radius: 10px;
+    box-shadow: inset 0px 1px 5px 1px rgba(0, 0, 0, 0.1), 0px 0px 5px 1px rgba(255, 255, 255, 0.1);
+}
