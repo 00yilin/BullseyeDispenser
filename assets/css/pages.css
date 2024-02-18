@@ -167,6 +167,37 @@ input, select, textarea {
 		margin-bottom: 0;
 	}
 
+	.aboutus-paragraph {
+		font-size: 20px;
+		color: rgb(0, 0, 0);
+		font-family: "Times New Roman", Times, serif;
+	}
+	.aboutus-h3{
+		font-size: 22px;
+		font-family: "Times New Roman", Times, serif;
+	}
+
+	.contact-h3 {
+		font-size: 25px;
+		color: rgb(255, 255, 255);
+		text-align: right;
+		padding-top: 20px;
+	}
+
+	.project-c-h2 {
+		font-size: 32px;
+	}
+
+	.project-c-h3{
+		font-size: 28px;
+		color: rgb(0, 31, 142);
+	}
+
+	.project-c-p{
+		font-size: 23px;
+		color: rgb(0, 0, 0);
+	}
+
 /* Container */
 
 	.container {
@@ -1639,12 +1670,25 @@ input, select, textarea {
 			color: #fff;
 			letter-spacing: -2px;
 		}
+		#banner .product-span-li {
+			font-size: 30px;
+			color: #c0eac7;
+			line-height: 1.4;
+		}
 
 /* Main */
 
 	#main {
 		background: #fff;
 		padding: 4em 0;
+	}
+
+	.products-img {
+		float:right;
+	}
+	.products-p {
+		font-size: 22px;
+		color: #000000;
 	}
 
 /* Footer */

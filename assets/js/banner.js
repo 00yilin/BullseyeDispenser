@@ -40,10 +40,7 @@ function interval() {
     if (bannerIndex < 0) bannerIndex += 1000;
     var banner = document.getElementById("banner");
     banner.src = bannerJson[bannerIndex % bannerJson.length].imgUrl;
-    banner.setAttribute("desUrl", bannerJson[bannerIndex % bannerJson.length].desUrl)
-    banner.onclick = function () {
-        window.open(this.getAttribute("desUrl"));
-    }
+
 
     bannerIndex++;
 }
