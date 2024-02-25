@@ -17,11 +17,11 @@ var bannerInterval;
  * banner内容json
  */
 var bannerJson = [{
-    "imgUrl": "src/img/暂时banner1.jpg",
+    "imgUrl": "src/img/暂时banner2.jpg",
     // "desUrl": ""
 },
 {
-    "imgUrl": "./src/img/暂时banner2.jpg",
+    "imgUrl": "./src/img/暂时banner1.jpg",
     // "desUrl": ""
 },
 {
