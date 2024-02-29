@@ -17,15 +17,15 @@ var bannerInterval;
  * banner内容json
  */
 var bannerJson = [{
-    "imgUrl": "src/img/暂时banner2.jpg",
+    "imgUrl": "src/img/high-precision dosing dispenser.jpg",
     // "desUrl": ""
 },
 {
-    "imgUrl": "./src/img/暂时banner1.jpg",
+    "imgUrl": "./src/img/Precision Weighting and Dispensing Equipments.jpg",
     // "desUrl": ""
 },
 {
-    "imgUrl": "./src/img/暂时banner3.jpg",
+    "imgUrl": "./src/img/automated powder dispensing.jpg",
     // "desUrl": ""
 }
 ];
